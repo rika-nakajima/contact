@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+
        $this->call(CategoriesTableSeeder::class);
 
        \App\Models\Contact::factory(35)->create();
@@ -22,4 +23,5 @@ class DatabaseSeeder extends Seeder
         
         // \App\Models\User::factory(10)->create();
     
+
 }

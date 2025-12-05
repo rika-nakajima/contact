@@ -1,14 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Admin\ContactController as AdminContactController;
+
 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
+
 */
 
 // トップページ
@@ -84,3 +87,4 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/contacts/export', [AdminContactController::class, 'export'])
         ->name('admin.contacts.export');
 });
+

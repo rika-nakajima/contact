@@ -1,0 +1,129 @@
+body {
+    background-color: #f3f2e9;
+    color: #5f5039;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* 検索フォーム */
+.search-form {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* テーブル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table th,
+table td {
+    border-bottom: 1px solid #ccc;
+    /* 薄いグレーの下線 */
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #5f5039;
+    color: #f3f2e9;
+}
+
+/* ボタン */
+.btn-primary,
+.btn-danger,
+.btn-success {
+    background-color: #5f5039;
+    color: #f3f2e9;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-danger:hover,
+.btn-success:hover {
+    opacity: 0.85;
+}
+
+/* 詳細モーダル全体 */
+.detail-modal {
+    background-color: #f3f2e9;
+    color: #5f5039;
+}
+
+/* モーダルヘッダー・フッター */
+.detail-modal .modal-header,
+.detail-modal .modal-footer {
+    border-color: #ccc;
+    /* 薄いグレーの下線 */
+}
+
+/* 詳細行 */
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    /* 薄いグレーの下線 */
+    padding: 8px 0;
+}
+
+/* 項目ラベル */
+.detail-row .label {
+    font-weight: bold;
+    color: #5f5039;
+    width: 30%;
+}
+
+/* 入力内容 */
+.detail-row .value {
+    background-color: #5f5039;
+    color: #f3f2e9;
+    padding: 4px 8px;
+    border-radius: 4px;
+    width: 65%;
+}
+/* ページネーションを右寄せ */
+.pagination-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* ページネーションリンク */
+.pagination {
+    display: flex;
+    list-style: none;
+    gap: 6px;
+    padding: 0;
+}
+
+.pagination li a,
+.pagination li span {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    /* 薄いグレー枠 */
+    border-radius: 4px;
+    text-decoration: none;
+    color: #5f5039;
+    /* 通常文字色 */
+    background-color: #f3f2e9;
+    /* 背景色 */
+}
+
+/* 現在ページ */
+.pagination .active span {
+    background-color: #5f5039;
+    color: #f3f2e9;
+    border: 1px solid #5f5039;
+}
+
+/* ホバー時 */
+.pagination li a:hover {
+    opacity: 0.85;
+}

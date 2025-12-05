@@ -1,0 +1,63 @@
+/* 確認画面全体 */
+.confirm-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* 項目（ラベル部分） */
+.confirm-row .label {
+    color: #5f5039;
+    /* 項目の文字色 */
+    font-weight: bold;
+    padding: 8px 12px;
+    width: 30%;
+    vertical-align: top;
+}
+
+/* 入力内容（値部分） */
+.confirm-row .value {
+    background-color: #5f5039;
+    /* 入力内容の背景色 */
+    color: #f3f2e9;
+    /* 入力内容の文字色 */
+    padding: 8px 12px;
+    border-radius: 4px;
+    width: 70%;
+}
+
+/* 行の下線（区切り） */
+.confirm-row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    /* 薄いグレーの下線 */
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/* ボタン配置 */
+.confirm-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.confirm-actions button {
+    background-color: #5f5039;
+    /* ボタン背景色 */
+    color: #f3f2e9;
+    /* ボタン文字色 */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: opacity 0.3s ease;
+}
+
+.confirm-actions button:hover {
+    opacity: 0.85;
+}

@@ -1,0 +1,65 @@
+/* 背景 */
+body {
+    background-color: #f3f2e9;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #5f5039;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 白い四角のコンテナ */
+.auth-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* ラベル */
+.auth-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #5f5039;
+}
+
+/* 入力欄 */
+.auth-container input[type="text"],
+.auth-container input[type="email"],
+.auth-container input[type="password"] {
+    border: 1px solid #ccc;
+    /* 薄いグレー枠 */
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    color: #5f5039;
+}
+
+/* ボタン */
+.auth-container button {
+    background-color: #5f5039;
+    /* 背景色 */
+    color: #f3f2e9;
+    /* 文字色 */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.auth-container button:hover {
+    opacity: 0.85;
+}

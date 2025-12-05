@@ -1,0 +1,16 @@
+.page-header {
+    text-align: center;
+    /* 中央寄せ */
+    padding: 20px 0;
+    border-bottom: 2px solid #ccc;
+    /* 下部に線 */
+    margin-bottom: 30px;
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    /* デフォルト余白を消す */
+}
